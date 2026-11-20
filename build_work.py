@@ -103,6 +103,8 @@ rooms += sec("rules", t("The rules","Les règles"), t("Clean every day, without 
 rooms += sec("result", t("Result","Résultat"), t("A booking file people can trust","Un fichier de réservation fiable"),
   "<p>" + t("A room marked as taken is now actually taken. Nobody has to track down a colleague to ask whether they are still using a room, and the shared file stays the single place to book, as before. The change was entirely behind the scenes.",
             "Une salle marquée comme prise est désormais vraiment prise. Plus besoin de courir après un collègue pour savoir s'il utilise encore une salle, et le fichier partagé reste le seul endroit où réserver, comme avant. Tout le changement s'est fait en coulisses.") + "</p>"
+  + "<p>" + t('Other teams have the same problem, so I later rebuilt the idea from scratch as a free, open-source tool: <a href="https://github.com/MedAmine-SUDO/ghostbooking">Ghostbooking</a> (Excel, CSV or Google Sheets; Slack, Teams, Discord or email).',
+            'D\'autres équipes ont le même problème : j\'ai donc reconstruit l\'idée de zéro sous forme d\'outil libre et gratuit, <a href="https://github.com/MedAmine-SUDO/ghostbooking">Ghostbooking</a> (Excel, CSV ou Google Sheets ; Slack, Teams, Discord ou e-mail).') + "</p>"
   + chips([(t("Automation","Automatisation"), ["Python",t("Scheduled jobs","Tâches planifiées"),t("Rule-based cleanup","Nettoyage par règles")]), (t("Integrations","Intégrations"), [t("Excel (shared file)","Excel (fichier partagé)"),"Slack"])]))
 rooms += cs_cta()
 
