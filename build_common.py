@@ -23,6 +23,11 @@ def page(title_en, title_fr, desc_en, body, root=""):
 <meta name="description" content="{desc_en}">
 <meta property="og:title" content="{title_en}">
 <meta property="og:description" content="{desc_en}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://mabenafia.vercel.app/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#f4f6f8">
 <link rel="icon" href="{root}assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
