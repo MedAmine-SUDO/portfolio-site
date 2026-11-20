@@ -2,8 +2,8 @@ EMAIL = "benafiamohamedamine@gmail.com"
 LINKEDIN = "https://www.linkedin.com/in/mabenafia/"
 GITHUB = "https://github.com/MedAmine-SUDO"
 UPWORK = "https://www.upwork.com/freelancers/~01de6a80acbbaa49db"
-CALL_EN = f"mailto:{EMAIL}?subject=20-min%20call"
-CALL_FR = f"mailto:{EMAIL}?subject=Appel%20de%2020%20min"
+CALL_EN = "https://cal.com/mabenafia/intro"
+CALL_FR = "https://cal.com/mabenafia/intro"
 
 def t(en, fr):
     return f'<span data-l="en">{en}</span><span data-l="fr">{fr}</span>'
