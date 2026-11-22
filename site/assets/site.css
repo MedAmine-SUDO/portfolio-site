@@ -1,7 +1,7 @@
 /* Layout: one reading column with full-width bands; same system as the case studies. */
 :root {
   --bg: #f4f6f8; --surface: #ffffff; --ink: #15212e; --muted: #5a6878;
-  --line: #d9e0e7; --accent: #2456c8; --accent-soft: #e4ebfa; --signal: #b5651d; --on-accent: #ffffff;
+  --line: #d9e0e7; --accent: #2456c8; --accent-soft: #e4ebfa; --signal: #9a5212; --on-accent: #ffffff;
   --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
   --body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;

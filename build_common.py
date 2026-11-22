@@ -37,7 +37,7 @@ def page(title_en, title_fr, desc_en, body, root=""):
 <script src="{root}assets/lang.js"></script>
 </head>
 <body>
-<div class="top"><div class="wrap">
+<header class="top"><div class="wrap">
   <a class="brand" href="{root or './'}">Mohamed Amine Ben Afia</a>
   <nav class="nav" aria-label="Main">
     <a href="{root}#services">{t("Services","Services")}</a>
@@ -46,9 +46,11 @@ def page(title_en, title_fr, desc_en, body, root=""):
     <a href="{root}#contact">{t("Contact","Contact")}</a>
     <span class="lang" role="group" aria-label="Language / Langue"><button type="button" data-set="en" aria-pressed="true" onclick="setLang('en')">EN</button><button type="button" data-set="fr" aria-pressed="false" onclick="setLang('fr')">FR</button></span>
   </nav>
-</div></div>
+</div></header>
 <div class="wrap">
+<main>
 {body}
+</main>
 <footer>
   <span>{t("Mohamed Amine Ben Afia · Data engineering, AI &amp; automation · Monastir, Tunisia · remote worldwide","Mohamed Amine Ben Afia · Data engineering, IA &amp; automatisation · Monastir, Tunisie · à distance partout")}</span>
   <span><a href="mailto:{EMAIL}">{EMAIL}</a> · <a href="{LINKEDIN}">LinkedIn</a> · <a href="{GITHUB}">GitHub</a></span>
