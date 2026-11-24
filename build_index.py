@@ -28,7 +28,7 @@ body = f'''
     <div class="fig" role="listitem"><b>219</b><span>{t("client data flows I migrated to Apache Airflow on AWS","flux de données clients que j'ai migrés vers Apache Airflow sur AWS")}</span></div>
     <div class="fig" role="listitem"><b>98.6%</b><span>{t("task success on that platform, a year after I left","de tâches réussies sur cette plateforme, un an après mon départ")}</span></div>
     <div class="fig" role="listitem"><b>3</b><span>{t("freelance clients: health-tech, textile, software","clients freelance : santé, textile, logiciel")}</span></div>
-    <div class="fig" role="listitem"><b>7</b><span>{t("public projects you can open, try and read","projets publics à ouvrir, tester et lire")}</span></div>
+    <div class="fig" role="listitem"><b>9</b><span>{t("public projects you can open, try and read","projets publics à ouvrir, tester et lire")}</span></div>
   </div>
 </header>
 
